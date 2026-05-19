@@ -1,0 +1,75 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Handmade Boutique keychains</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Handmade Boutique keychains</h1>
+    <p>Custom Bouquets & Cute Keychains</p>
+  </header>
+
+  <section class="products">
+
+    <!-- PRODUCT 1 -->
+    <div class="card">
+      <img src="key web/blue.jpg" alt="Keychain">
+      <h2>Sky Bloom Keychain</h2>
+      <p class="price">₹100</p>
+
+      <button
+        onclick="sendWhatsApp(
+          'Sky Bloom Keychain',
+          '₹100',
+          'https://yourwebsite.com/images/keychain1.jpg'
+        )"
+      >
+        Order on WhatsApp
+      </button>
+    </div>
+
+    <!-- PRODUCT 2 -->
+    <div class="card">
+      <img src="key web/purple.jpg" alt="Bouquet">
+      <h2>Ivory Flower Bunch</h2>
+      <p class="price">₹100</p>
+
+      <button
+        onclick="sendWhatsApp(
+          'Ivory Flower Bunch',
+          '₹100',
+          'https://yourwebsite.com/images/bouquet1.jpg'
+        )"
+      >
+        Order on WhatsApp
+      </button>
+    </div>
+
+    <!-- PRODUCT 3 -->
+    <div class="card">
+      <img src="key web/white.jpg" alt="Keychain">
+      <h2>Lavender Bloomn</h2>
+      <p class="price">₹100</p>
+
+      <button
+        onclick="sendWhatsApp(
+          'Lavender Bloomn',
+          '₹100',
+          'https://yourwebsite.com/images/keychain2.jpg'
+        )"
+      >
+        Order on WhatsApp
+      </button>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
